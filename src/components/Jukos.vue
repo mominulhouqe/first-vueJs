@@ -4,7 +4,7 @@
       <div v-if="loading">Loading...</div>
       <div v-else>
         <div class="joke">
-          <img src="@/assets/chuck-norris.png" alt="Chuck Norris" />
+          <img src="@/assets/logo.svg" alt="Chuck Norris" />
           <p>{{ joke }}</p>
         </div>
         <button @click="fetchNewJoke">Get Another Joke</button>
